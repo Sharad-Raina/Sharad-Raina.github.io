@@ -1,0 +1,293 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Sharad Raina Portfolio</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <link rel="stylesheet" href="assets/css/main.css" />
+        <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+        <style>
+            /* Ensuring images in the posts have consistent size */
+            .image.main img, .image.fit img {
+                width: 100%;
+                height: 300px;
+                object-fit: cover;
+                border-radius: 15px;
+            }
+
+            /* Circular Profile Image */
+            .profile-image img {
+                width: 200px;
+                height: 200px;
+                object-fit: cover;
+                border-radius: 50%; /* Circular shape */
+                border: 5px solid #fff; /* White border */
+                box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); /* Optional: Add a shadow to enhance the effect */
+            }
+
+            /* Optional animation for post images fading in and out */
+            @keyframes fadeInOut {
+                0% {
+                    opacity: 0;
+                }
+                50% {
+                    opacity: 1;
+                }
+                100% {
+                    opacity: 0;
+                }
+            }
+
+            .image.main img {
+                animation: fadeInOut 6s ease-in-out infinite;
+            }
+
+            /* Animation to switch between circular and elliptical border */
+            @keyframes borderAnimation {
+                0% {
+                    transform: scale(1);
+                    border-radius: 50%;
+                }
+                50% {
+                    transform: scale(1.1);
+                    border-radius: 70% 50%; /* Elliptical shape */
+                }
+                100% {
+                    transform: scale(1);
+                    border-radius: 50%; /* Back to circle */
+                }
+            }
+
+            /* Making the featured image circular */
+            .image.main img {
+                width: 300px; /* Adjusted size */
+                height: 300px; /* Adjusted size */
+                object-fit: cover;
+                border-radius: 50%; /* Circular shape */
+                box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); /* Optional: Add a shadow to enhance the effect */
+            }
+
+            /* Centering the image */
+            .image.main {
+                text-align: center; /* Center the image */
+            }
+
+            .image.main img {
+                display: block; /* Ensures the image behaves like a block element */
+                margin-left: auto; /* Optional: Helps with centering */
+                margin-right: auto; /* Optional: Helps with centering */
+            }
+
+            /* Remove extra space above the featured post */
+            #main .post.featured {
+                margin-top: 0;
+            }
+
+            /* Additional styling for emphasis */
+            .highlight {
+                font-weight: bold;
+                color: #2A9D8F;
+            }
+
+            .important {
+                font-weight: bold;
+                font-style: italic;
+                color: #E76F51;
+            }
+
+            .sub-heading {
+                font-size: 1.2em;
+                color: #264653;
+            }
+        </style>
+    </head>
+    <body class="is-preload">
+
+        <!-- Wrapper -->
+        <div id="wrapper" class="fade-in">
+
+            <!-- Intro -->
+            <div id="intro">
+                <h1> Exploring the Unexplored <br />(One EDA at a Time) </h1>
+                <p>Harnessing Excel, SQL, Tableau & Python to decode patterns <br />
+                    Engineering AI/ML to forecast trends.</p>
+                <ul class="actions">
+                    <li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+                </ul>
+            </div>
+
+            <!-- Header -->
+            <header id="header">
+                <a href="index.html" class="logo">SHARAD RAINA</a>
+            </header>
+
+            <!-- Nav -->
+            <nav id="nav">
+                <ul class="links">
+                    <li class="active"><a href="index.html">About me</a></li>
+                    <li><a href="images/RR.pdf" target="_blank">Resume</a></li>
+                </ul>
+                <ul class="icons">
+                    <li><a href="https://www.linkedin.com/in/sharad-raina-3147b6177/" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+                    <li><a href="https://github.com/Sharad-Raina?tab=repositories" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+                </ul>
+            </nav>
+
+            <!-- Main -->
+            <div id="main">
+
+                <!-- Featured Post -->
+                <article class="post featured">
+                    <header class="major">
+                        <span class="date"></span>
+                        <h2><a href="#">A Dentist turned<br />
+                        Data Analyst</a></h2>
+                        <p>
+                            I’m <span class="highlight">Sharad Raina</span>, a passionate <span class="highlight">data analyst</span> with a unique background blending healthcare expertise and technical skills. Currently, I am pursuing a <span class="highlight">Master of Science in Health Informatics</span> at Northeastern University in Boston. With a focus on leveraging data for decision-making in the healthcare sector, I am dedicated to unlocking insights that improve patient care and operational efficiency. I specialize in <span class="highlight">health data analysis</span>, <span class="highlight">automation</span>, and <span class="highlight">predictive modeling</span>, transforming raw data into actionable insights.
+                        </p>
+                        <p>
+                            My journey into data analytics has been <span class="important">unconventional</span> but enriching. Having started my career as a dentist, I transitioned into the field of data analytics through <span class="highlight">self-learning</span>. I taught myself various analytical tools, including Excel, SQL, Tableau, Python, and R, driven by my curiosity and passion for problem-solving. My ability to learn quickly and embrace new challenges has been a key factor in my success in this field.
+                        </p>
+                        <p>
+                            In addition to my academic and professional pursuits, I have gained valuable experience as a <span class="highlight">data analyst intern</span> at <span class="highlight">Mass General Brigham</span>, where I had the opportunity to apply my analytical skills in a real-world healthcare setting for 7 months. This experience has enhanced my ability to make data-driven decisions that have a direct impact on patient care and hospital operations.
+                        </p>
+                        <p>
+                            Beyond my professional and academic life, I am an avid sports enthusiast, excelling in table tennis, basketball, badminton, and 8-ball pool. During my undergraduate years, I actively participated in sports events and earned several accolades during our sports week competitions. I believe that my <span class="highlight">competitive nature</span> and ability to work well under pressure are qualities that I bring into my professional life, constantly striving to perform at my best and face challenges head-on.
+                        </p>
+                    </header>
+                    <a href="#" class="image main"><img src="images/profile.jpg" alt="" /></a>
+                </article>
+
+                <!-- Posts -->
+                <section class="posts">
+                    <article>
+                        <header> 
+                            <h3 class="sub-heading">Data Analytics using R</h3>
+                            <h2><a href="https://github.com/Sharad-Raina/Uber-Demand-Supply-Case-Study">Uber Demand-Supply <br />Case Study</a></h2>
+                        </header>
+                        <a href="https://github.com/Sharad-Raina/Uber-Demand-Supply-Case-Study" class="image fit"><img src="images/uber.webp" alt="" /></a>
+                        <p>Analyzed <span class="highlight">airport trip cancellations</span> (15% higher than city trips) and driver shortages using time-based request data. Identified peak failure times with <span class="highlight">40% unavailability</span> during early mornings and late evenings. Mapped <span class="highlight">supply-demand gaps</span> (up to 50%) and recommended surge pricing and incentives to address critical shortages.</p>
+                        <ul class="actions special">
+                            <li><a href="https://github.com/Sharad-Raina/Uber-Demand-Supply-Case-Study" class="button">View Project</a></li>
+                        </ul>
+                    </article>
+
+                    <article>
+                        <header>
+                            <h3 class="sub-heading">Data Analytics using SQL</h3>
+                            <h2><a href="#">Walmart Sales Analysis - SQL + Tableau Data Exploration Project</a></h2>
+                        </header>
+                        <a href="https://github.com/Sharad-Raina/Walmart-Sales-Analysis-SQL" class="image fit">
+                            <img src="images/waalmart.jpg" alt="" />
+                        </a>
+                        <p>This case study explores Walmart's comprehensive approach to sales data analytics, showcasing how the retail giant leverages its vast data resources to optimize operations and enhance customer experience. The analysis covers various aspects of Walmart's business, from product performance to customer behavior, providing valuable insights into the company's data-driven decision-making process..</p>
+                        <ul class="actions special">
+                            <li><a href="#" class="button">View Project</a></li>
+                        </ul>
+                    </article>
+
+                    <!-- New Data Visualization Project -->
+                    <article>
+                        <header>
+                            <h3 class="sub-heading">Data Visualization using Tableau</h3>
+                            <h2><a href="https://public.tableau.com/views/ElectricVehicleDataProject">Electric Vehicle Data Insights: <br />Understanding Adoption Patterns</a></h2>
+                        </header>
+                        <a href="https://public.tableau.com/views/ElectricVehicleDataProject" class="image fit"><img src="images/electric-car-charging-home-clean-energy-filling-technology.jpg" alt="" /></a>
+                        <p>This Tableau project visualizes electric vehicle (EV) adoption trends across multiple countries. The dashboard explores key metrics such as EV sales growth, regional trends, government incentives, and market share over time. The visualizations provide a clear understanding of how different factors contribute to the growth of the EV industry, helping stakeholders make informed decisions in the growing sustainable mobility space.</p>
+                        <ul class="actions special">
+                            <li><a href="https://public.tableau.com/views/ElectricVehicleDataProject" class="button">View Project</a></li>
+                        </ul>
+                    </article>
+
+                    <article>
+                        <header>
+                            <h3 class="sub-heading">Machine Learning using R</h3>
+                            <h2><a href="https://github.com/Sharad-Raina/Machine-Learning/tree/main">An Ensemble Model to <br />
+                                Predict the Length of Stay</a></h2>
+                        </header>
+                        <a href="https://github.com/Sharad-Raina/Machine-Learning/tree/main" class="image fit"><img src="images/dea2345a-5586-45a3-9512-88a0c108bbde.jpeg" alt="" /></a>
+                        <p>This project develops predictive models to estimate patient <span class="highlight">length of stay</span> (LOS) using health metrics, processing 50K+ records with missing value handling, encoding, and scaling. Models trained include Linear Regression (RMSE: 2.5), Random Forest (RMSE: 1.8), and Gradient Boosting (RMSE: 1.6), with a stacked ensemble model achieving RMSE: 1.4 and R²: 0.90 for improved accuracy.</p>
+                        <ul class="actions special">
+                            <li><a href="https://github.com/Sharad-Raina/Machine-Learning/tree/main" class="button">View Project</a></li>
+                        </ul>
+                    </article>
+
+                    <article>
+                        <header>
+                            <h3 class="sub-heading">Data Analytics using R</h3>
+                            <h2><a href="https://github.com/Sharad-Raina/International_Student_Demography">Analyzing Global Student Mobility: <br />
+                                U.S. Enrollment Patterns</a></h2>
+                        </header>
+                        <a href="https://github.com/Sharad-Raina/International_Student_Demography" class="image fit"><img src="images/student.jpeg" alt="" /></a>
+                        <p>Analyzed U.S. international student trends across four datasets, exploring origin countries, academic fields, funding sources, and visa statuses. Leveraged data merging, exploratory analysis (EDA), and ggplot2 visualizations to uncover enrollment patterns and preferences. Insights aim to inform global education policies, employment strategies, and foster cross-cultural collaboration through data-driven decision-making.</p>
+                        <ul class="actions special">
+                            <li><a href="https://github.com/Sharad-Raina/International_Student_Demography" class="button">View Project</a></li>
+                        </ul>
+                    </article>
+
+                </section>
+
+            </div>
+
+            <!-- Footer -->
+            <footer id="footer">
+                <section>
+                    <form method="post" action="#">
+                        <div class="fields">
+                            <div class="field">
+                                <label for="name">Name</label>
+                                <input type="text" name="name" id="name" />
+                            </div>
+                            <div class="field">
+                                <label for="email">Email</label>
+                                <input type="text" name="email" id="email" />
+                            </div>
+                            <div class="field">
+                                <label for="message">Message</label>
+                                <textarea name="message" id="message" rows="3"></textarea>
+                            </div>
+                        </div>
+                        <ul class="actions">
+                            <li><input type="submit" value="Send Message" /></li>
+                        </ul>
+                    </form>
+                </section>
+                <section class="split contact">
+                    <section class="alt">
+                        <h3>Location</h3>
+                        <p>Boston, Massachusetts <br />
+                        </p>
+                    </section>
+
+                    <section>
+                        <h3>Email</h3>
+                        <p><a href="#">sharadraina46@gmail.com</a></p>
+                    </section>
+                    <section>
+                        <h3>Social</h3>
+                        <ul class="icons alt">
+                            <li><a href="https://www.linkedin.com/in/sharad-raina-3147b6177/" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+                            <li><a href="https://github.com/Sharad-Raina?tab=repositories" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+                        </ul>
+                    </section>
+                </section>
+            </footer>
+
+            <!-- Copyright -->
+            <div id="copyright">
+                <ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+            </div>
+
+        </div>
+
+        <!-- Scripts -->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/jquery.scrollex.min.js"></script>
+        <script src="assets/js/jquery.scrolly.min.js"></script>
+        <script src="assets/js/browser.min.js"></script>
+        <script src="assets/js/breakpoints.min.js"></script>
+        <script src="assets/js/util.js"></script>
+        <script src="assets/js/main.js"></script>
+
+    </body>
+</html>
